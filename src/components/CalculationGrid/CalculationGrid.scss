@@ -1,0 +1,87 @@
+.abn-select-operation-ctn{
+    display: flex;
+    margin-bottom: 20px;
+
+    .operation-selector{
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        min-width: 300px;
+    }
+}
+
+
+.abn-grid-ctn{
+    display: grid;
+    grid-template-columns:  90% 10%;
+    margin-bottom: 20px;
+
+    .calculation-grid-ctn{
+        border-top: 3px solid black;
+        border-left: 3px solid black;
+
+        .header-row{
+            display: grid;
+            grid-template-columns:  45% 10% 45%;
+            border-bottom: 3px solid black;
+            background-color: lightcoral;
+            min-height: 20px;
+            width: 100%;
+            text-align: center;
+
+            .grid-cell{
+                padding: 20px;
+
+                .grid-input{
+                    height: 40px;
+                    width: 100%;
+                    text-align: right;
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+            }
+
+            .grid-cell.last-header-cell{
+                border-right: 3px solid black;
+            }
+
+
+            .grid-cell.operator-cell{
+                display: flex;
+                justify-content: center; //centra el contenido horizontalmente
+                align-items: center; //centra el contenido verticalmente
+
+                img{
+                    height: 30px;
+                }
+            }
+        }
+
+    }
+
+    .add-row-btn-ctn{
+        display: flex;
+
+        .round-btn{
+            margin-left: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+            height: 40px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 16px;
+            display: inline-block;
+            align-self: flex-end;
+        }
+    }
+    
+}
+
+.errors-ctn{
+    min-height: 40px;
+    border-radius: 10px;
+    background-color: lightyellow;
+    font-size: 16px;
+    padding: 10px;
+}
+

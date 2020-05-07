@@ -1,0 +1,14 @@
+[
+    {
+        "operationId": "1",
+        "operationSign": "+",
+        "operationDescription": "suma",
+        "operationIcon": "plus-icon.png"
+    },
+    {
+        "operationId": "2",
+        "operationSign": "-",
+        "operationDescription": "resta",
+        "operationIcon": "minus-icon.png"
+    }
+]

@@ -1,0 +1,22 @@
+.grid-row{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    background-color: lightcoral;
+    min-height: 20px;
+    width: 100%;
+    text-align: center;
+
+    .grid-cell{
+        padding: 10px;
+        border-bottom: 3px solid black;
+        border-right: 3px solid black;
+
+        .grid-input{
+            height: 40px;
+            width: 100%;
+            text-align: right;
+            font-size: 22px;
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+$example-color: lightblue;
+
+.App {
+  background-color: $example-color;
+  
+  .app-content{
+    padding: 80px 20px 40px 20px;
+  }
+}
